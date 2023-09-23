@@ -13,11 +13,11 @@ This project tracks the bus location between MIT and Harvard....
 ADD MORE... 
 
 ## How To Run:
-1. Get a copy of the following files by downloading or forking and cloning the repo to your local computer:
+1. Get a copy of the following files by downloading or forking and cloning this repo to your local computer: https://github.com/jodytburch/eyes-exercise
     - mapanimation.js
     - styles.css
     - index.html
-2. TBD ... get API Key for google maps ...
+2. TBD ... get API Key for mapbox maps ...
 3. Open or drag/drop the "index.html" file into a browser. 
 4. 
 
@@ -25,4 +25,4 @@ ADD MORE...
 - TBD
 
 ## License Information:
-**Go to: [LICENSE](./LICENSE)**
+**See: [LICENSE](./LICENSE)**
