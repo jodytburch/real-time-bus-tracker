@@ -17,7 +17,7 @@ This project tracks the bus stops between MIT and Harvard on a map.  It currentl
 5. The map should load with the starting marker. When the button is clicked, the marker will move along the bus route from MIT to Harvard.
 
 ## Roadmap of Future Enhancements:
-- Explore different map options in mapbox.
+- Explore different mapbox styles.
 - Get real-time data from MBTA API (url), and use that to plot the bus route.
 - Use Google Maps API to display actual locations on the map.
 
