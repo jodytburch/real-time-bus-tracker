@@ -4,8 +4,7 @@ This project tracks the bus stops between MIT and Harvard on a map.  It currentl
 
 
 ## How To Run:
-1. Fork and clone this repo to your local computer: https://github.com/jodytburch/eyes-exercise
-    You will see these files:
+1. Get a copy of the following files by downloading or forking or cloning this repo to your local computer: https://github.com/jodytburch/eyes-exercise
     - mapanimation.js
     - styles.css
     - index.html
