@@ -1,28 +1,25 @@
 # Real Time Bus Tracker
-The README for each repository should contain: 
-1.	Project Title
-2.	Description of Project (minimum of 20 words)
-How to Run: This is information someone would use to get started running your project on their machine. 
-1.	Roadmap of future improvements: This should be a few sentences describing what you plan to work on next in this repository. 
-2.	License information: This should include information about the MIT license.
-
 ## Description:
+This project tracks the bus stops between MIT and Harvard on a map.  It currently uses a predefined set of coordinates for the bus stops.  When the button is clicked, the map marker will move along the bus route showing each stop between MIT and Harvard.
 
-This project tracks the bus location between MIT and Harvard....
-
-ADD MORE... 
 
 ## How To Run:
-1. Get a copy of the following files by downloading or forking and cloning this repo to your local computer: https://github.com/jodytburch/eyes-exercise
+1. Fork and clone this repo to your local computer: https://github.com/jodytburch/eyes-exercise
+    You will see these files:
     - mapanimation.js
     - styles.css
     - index.html
-2. TBD ... get API Key for mapbox maps ...
-3. Open or drag/drop the "index.html" file into a browser. 
-4. 
+2. You will need your own API Token from mapbox in order to display the map.  First, sign up for a free account at https://www.mapbox.com. Then, navigate to and follow instructions to generate an API Token.
+3. Open mapanimation.js and insert your token into this line:
+    mapboxgl.accessToken = 'REPLACE-WITH-YOUR-MAPBOX-ACCESS-TOKEN';
+
+4. Save the file, and drag/drop the "index.html" file into a browser. 
+5. The map should load with the starting marker. When the button is clicked, the marker will move along the bus route from MIT to Harvard.
 
 ## Roadmap of Future Enhancements:
-- TBD
+- Explore different map options in mapbox.
+- Get real-time data from MBTA API (url), and use that to plot the bus route.
+- Use Google Maps API to display actual locations on the map.
 
 ## License Information:
 **See: [LICENSE](./LICENSE)**
